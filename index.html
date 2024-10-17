@@ -1,0 +1,37 @@
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <div id="pergunta">
+        <p>Você quer jogar contra a máquina?</p>
+        <input type="radio" id="cpu" name="opcao" value="sim"  checked />
+        <label for="cpu">sim</label>
+        <input type="radio" id="humano" name="opcao" value="nao"  />
+        <label for="">Não</label>
+    </div>
+    <table width="200" border="1">
+        <tbody>
+            <tr>
+                <td><img src="img/transp.png" alt="imagem" id="c1" onclick="return checkjogo(this.id)"/></td>
+                <td><img src="img/transp.png" alt="imagem" id="c2" onclick="return checkjogo(this.id)"/></td>
+                <td><img src="img/transp.png" alt="imagem" id="c3" onclick="return checkjogo(this.id)"/></td>
+            </tr>
+            <tr>
+                <td><img src="img/transp.png" alt="imagem" id="c4" onclick="return checkjogo(this.id)"/></td>
+                <td><img src="img/transp.png" alt="imagem" id="c5" onclick="return checkjogo(this.id)"/></td>
+                <td><img src="img/transp.png" alt="imagem" id="c6" onclick="return checkjogo(this.id)"/></td>
+            </tr>
+            <tr>
+                <td><img src="img/transp.png" alt="imagem" id="c7" onclick="return checkjogo(this.id)"/></td>
+                <td><img src="img/transp.png" alt="imagem" id="c8" onclick="return checkjogo(this.id)"/></td>
+                <td><img src="img/transp.png" alt="imagem" id="c9" onclick="return checkjogo(this.id)"/></td>
+            </tr>
+        </tbody>
+    </table>
+    
+</body>
+<script src="externo.js"></script>
+</html>
